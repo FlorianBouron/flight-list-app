@@ -1,6 +1,8 @@
-# flight_list_app
+# Flight List App
 
-A new Flutter project.
+Flight list app inspired by: https://dribbble.com/shots/5662956-Flight-Tickets-Deal-Tracker-App-Day-340-365-Project365
+
+![Flight App Cover](https://cdn.dribbble.com/users/386883/screenshots/5662956/06122018-dribbble_4x.png)
 
 ## Getting Started
 
