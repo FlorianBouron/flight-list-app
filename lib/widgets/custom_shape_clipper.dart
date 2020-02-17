@@ -41,6 +41,6 @@ class CustomShapeClipper extends CustomClipper<Path> {
 
   @override
   bool shouldReclip(CustomClipper oldClipper) {
-    return false;
+    return true;
   }
 }
