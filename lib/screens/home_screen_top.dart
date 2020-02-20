@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../widgets/custom_shape_clipper.dart';
 import '../widgets/choice_chip.dart';
 import '../data/locations.dart';
+import './flight_list_screen.dart';
 import '../style.dart';
 
 class HomeScreenTop extends StatefulWidget {
@@ -116,9 +117,19 @@ class _HomeScreenTopState extends State<HomeScreenTop> {
                           borderRadius: BorderRadius.all(
                             Radius.circular(30.0),
                           ),
-                          child: Icon(
-                            Icons.search,
-                            color: Colors.black,
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => FlightListScreen(),
+                                ),
+                              );
+                            },
+                            child: Icon(
+                              Icons.search,
+                              color: Colors.black,
+                            ),
                           ),
                         ),
                         border: InputBorder.none,
