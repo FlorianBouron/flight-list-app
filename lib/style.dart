@@ -30,4 +30,9 @@ class AppTheme {
     fontSize: 14.0,
     color: primaryColor,
   );
+
+  static const TextStyle bottomNavigationBarItemStyle = TextStyle(
+    fontStyle: FontStyle.normal,
+    color: Colors.black,
+  );
 }
