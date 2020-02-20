@@ -25,4 +25,9 @@ class AppTheme {
     color: Colors.white,
     fontWeight: FontWeight.bold,
   );
+
+  static const TextStyle viewAllStyle = TextStyle(
+    fontSize: 14.0,
+    color: primaryColor,
+  );
 }
