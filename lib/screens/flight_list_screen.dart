@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './flight_list_screen_top.dart';
+import './flight_list_screen_bottom.dart';
 
 class FlightListScreen extends StatelessWidget {
   @override
@@ -20,6 +21,8 @@ class FlightListScreen extends StatelessWidget {
       body: Column(
         children: <Widget>[
           FlightListScreenTop(),
+          SizedBox(height: 20),
+          FlightListScreenBottom(),
         ],
       ),
     );
